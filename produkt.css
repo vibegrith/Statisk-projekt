@@ -1,0 +1,70 @@
+body {
+  font-family: poppins, sans-serif;
+}
+h2 {
+  font-size: 2rem;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+p {
+  font-size: 20px;
+  margin: 20px;
+}
+
+label {
+  font-size: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.grid_3-1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 30px;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy {
+  background-color: lightblue;
+  padding: 1rem;
+}
+
+select {
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+option {
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  padding: 17px;
+  border-radius: 10px;
+  margin: 20px;
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
