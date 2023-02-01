@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  font-family: poppins, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 30px 30px 30px 30px;
+}
+
+.procent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.udsalg {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.image_wrapper {
+  width: 500px;
+  margin: 0;
+  position: relative;
+}
+.udsolgt {
+  width: 100%;
+  opacity: 40%;
+}
+
+.skilt {
+  position: absolute;
+  top: 166%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 30px 30px 30px 30px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .procent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .udsalg {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .image_wrapper {
+    width: 500px;
+    margin: 0;
+    position: relative;
+  }
+  .udsolgt {
+    width: 100%;
+    opacity: 40%;
+  }
+
+  .skilt {
+    position: absolute;
+    top: 19.5%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+}
