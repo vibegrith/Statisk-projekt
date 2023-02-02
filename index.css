@@ -3,10 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   margin: 20px 10px auto auto;
 }
 
@@ -14,16 +13,34 @@ ul li {
   padding: 20px;
   list-style: none;
 }
-
 li a {
   font-family: poppins, sans serif;
   text-decoration: none;
   color: black;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
+@media (min-width: 1200px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 10px auto auto;
+  }
 
-h1 {
-  font-family: poppins, sans serif;
-  font-size: 2.3rem;
-  text-align: center;
+  ul li {
+    padding: 20px;
+    list-style: none;
+  }
+
+  li a {
+    font-family: poppins, sans serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-family: poppins, sans serif;
+    font-size: 2.3rem;
+    text-align: center;
+  }
 }

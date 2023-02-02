@@ -42,9 +42,27 @@ h1 {
   opacity: 40%;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
 .skilt {
   position: absolute;
-  top: 166%;
+  width: 30%;
+  top: 67%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.skilt1 {
+  position: absolute;
+  top: 63%;
   background-color: black;
   color: white;
   padding: 20px;
@@ -79,19 +97,29 @@ h1 {
     padding: 10px;
   }
 
-  .image_wrapper {
-    width: 500px;
-    margin: 0;
-    position: relative;
-  }
   .udsolgt {
     width: 100%;
     opacity: 40%;
   }
 
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
   .skilt {
+    width: 30%;
     position: absolute;
-    top: 19.5%;
+    top: 65%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+
+  .skilt1 {
+    width: 30%;
+    position: absolute;
+    top: 65%;
     background-color: black;
     color: white;
     padding: 20px;
