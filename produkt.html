@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produktside</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="produkt.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/produkt.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 </head>
@@ -34,13 +34,14 @@
         </div>
         <div>
             <div class="info">
-                <section>
+                <section class="buybox">
                     <div class="buy">
                         <H2>Nike Sahara Team India Fanwear - Round Neck Jersey</H2>
-                        <p>T-shirt</p>
+                        <p> <span class="brand"> Nike </span> | <span class="kategori"> T-shirt </span></p>
                         <hr>
+                        <p class="price">Pris DKK 895,-</p>
                         <form>
-                            <label>
+                            <label class="size">
                                 Vælg størrelse:
                                 <select name="size">
                                     <option>XS</option>
@@ -56,21 +57,22 @@
                         </div>
                     </div>
                 </section>
-                <h2>Produktinformation</h2>
-                <h3>Modelnavn</h3>
-                <p>
-                    Sahara Team India Fanwear Round Neck Jersey.
-                </p>
-                <h3>Farve</h3>
-                <p>Blå</p>
-                <H3>Produkt id</H3>
-                <p>1163</p>
-
+                <section class="infobox">
+                    <h2>Produktinformation</h2>
+                    <h3>Modelnavn</h3>
+                    <p>
+                        Sahara Team India Fanwear Round Neck Jersey.
+                    </p>
+                    <h3>Farve</h3>
+                    <p class="color">Blå</p>
+                    <H3>Produkt id</H3>
+                    <p class="id">1163</p>
+                </section>
             </div>
         </div>
     </main>
 
-
+    <script src="js/produkt.js"></script>
 </body>
 
 </html>
