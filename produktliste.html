@@ -18,26 +18,40 @@
             <ul>
                 <li> <a href="kategori.html">Produktkategorier</a>
                 </li>
-
-                <li> <a href="produkt.html">Produkt</a>
-                </li>
             </ul>
         </nav>
     </header>
+    <h1>Produktliste</h1>
 
-    <section>
-        <h1>Produktliste</h1>
-        <div class="grid_1-1-1">
-            <div class="flex">
+    <template id="smallProductTemplate">
+
+        <div class="produktliste">
+            <div>
                 <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="Nike sahara">
-                <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-                <p>T-shirts</p>
-                <hr>
-                <p>Nike</p>
-                <p>DKK 895,-</p>
-                <p><a href="produkt.html">Læs mere</a></p>
             </div>
-            <div><img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Nike sahara">
+            <div class="skilt hide">
+                <p>Udsolgt</p>
+            </div>
+
+            <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+            <p class="articletype"></p>
+            <hr>
+            <p class="brand"></p>
+            <p class="price"></p>
+
+            <div class="udsalgspris hide">
+                <p class=" procent"></p>
+                <p class="udsalg"></p>
+            </div>
+            <a class="read-more" href="produkt.html">Læs mere</a>
+        </div>
+    </template>
+    <main class="grid_1-1-1">
+
+
+        <!--
+            <div class="produktliste onSale">
+                <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Nike sahara">
                 <h3>Blue T20 Indian Cricket Jersey</h3>
                 <p>T-shirts</p>
                 <hr>
@@ -49,9 +63,9 @@
                 </div>
                 <p><a href="produkt.html">Læs mere</a></p>
             </div>
-            <div class="container">
-                <div class="image_container">
-                    <img class="udsolgt" src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp" alt="Nike sahara">
+            <div class="container produktliste soldOut">
+                <div class="udsolgt">
+                    <img src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp" alt="Nike sahara">
                 </div>
                 <div class="skilt">
                     <p>Udsolgt</p>
@@ -63,7 +77,7 @@
                 <p>DKK 2495,-</p>
                 <p><a href="produkt.html">Læs mere</a></p>
             </div>
-            <div class="container">
+            <div class="container produktliste soldOut onSale">
                 <div class="image_container">
                     <img class="udsolgt" src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp" alt="Puma Backpack">
                 </div>
@@ -81,7 +95,8 @@
                 </div>
                 <p><a href="produkt.html">Læs mere</a></p>
             </div>
-            <div><img src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp" alt="Nike sahara">
+            <div class="produktliste">
+                <img src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp" alt="Nike sahara">
                 <h3>Big Cat Backpack Black</h3>
                 <p>Backpack</p>
                 <hr>
@@ -89,10 +104,11 @@
                 <p>DKK 1299,-</p>
                 <p><a href="produkt.html">Læs mere</a></p>
             </div>
+-->
 
-        </div>
-    </section>
 
+    </main>
+    <script src="js/produktliste.js"></script>
 
 </body>
 
